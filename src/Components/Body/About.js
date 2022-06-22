@@ -9,9 +9,10 @@ export default function About() {
             <h1>Hallo! I'm a</h1>
             <h1><span className='h1-custom'>frontend</span>-developer</h1>
             <h1>in making.</h1>
-            <p>I'm Dimitri! A german-based programming enthusiast with the goal to get his first 
-                job as a frontend developer!
+            <p>I'm Dimitri! A german-based programming enthusiast with the goal 
             </p>
+            <p>to get his first 
+                job as a frontend developer!</p>
             <button>Look at my work!</button>
 
         </div>

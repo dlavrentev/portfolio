@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 html {
     background-color: whitesmoke;
-    --main-yellow-color: rgba(207, 210, 40, 1);
-    --second-yellow-color: rgba(207, 210, 40, 0.5);
-    --main-blue-color: rgba(47, 130, 136, 1);
+    --main-yellow-color: rgba(255, 255, 0, 1);
+    --first-blue-color: #03045E;
+    --second-blue-color: #00B4D8;
+    --third-blue-color: #90E0EF;
+    ---fourth-blue-color: #CAF0F8;
     --main-black-color: rgba(52, 50, 50, 1);
-    --second-black-color: rgba(52,  50,  50, 0.5)
+    --second-black-color: rgba(52,  50,  50, 0.5);
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .header-container {
@@ -13,7 +21,6 @@ html {
 }
 
 .footer-container {
-    background-color: bisque;
     border-top: solid 2px black;
     height: 10vh;
 }
@@ -27,16 +34,19 @@ html {
 }
 
 .about-body-left h1 {
-    color: var(--main-blue-color);
-    font-size: 3rem;
+    color: var(--first-blue-color);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0px;
 }
 
 .about-body-left p {
     color: var(--second-black-color);
+    line-height: 0px;
 }
 
 .h1-custom {
-    color: var(--main-yellow-color)
+    color: var(--second-blue-color)
 }
 
 .about-body-left, .about-body-right {
