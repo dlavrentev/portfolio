@@ -11,3 +11,27 @@ html {
     background-color: bisque;
     height: 10vh;
 }
+
+.about-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-body-left, .about-body-right {
+    border:solid blue 2px;
+    width: 50%;
+    height: 80vh;
+}
+
+
+
+.profile-image {
+    height: 70vh;
+    width: 70vh;
+
+}
+
+
