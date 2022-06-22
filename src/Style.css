@@ -16,12 +16,10 @@ html {
 }
 
 .header-container {
-    border-bottom: solid 2px black;
     height: 10vh;
 }
 
 .footer-container {
-    border-top: solid 2px black;
     height: 10vh;
 }
 
@@ -52,6 +50,7 @@ html {
     font-size: 1.5rem;
     padding: 20px 80px;
     border-radius: 32px;
+    font-weight: 700;
 }
 
 .h1-custom {
@@ -60,8 +59,7 @@ html {
 
 .about-body-left, .about-body-right {
     width: 50%;
-    height: 80vh; 
-    border: solid brown 1px;    
+    height: 80vh;
 }
 
 .about-body-left {
@@ -74,15 +72,15 @@ html {
 
 .about-body-right {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .profile-image {
-    height: 100%;
-    width: 100%;
-    background-color: var(--second-yellow-color);
-    border-radius: 50% 0 50% 50%;
+   height: 100%;
+   width: 70%;
+   border-radius: 60% 0 20% 10%;
+   background: var(---fourth-blue-color)
 }
 
 
