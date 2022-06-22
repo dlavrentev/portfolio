@@ -7,7 +7,7 @@ export default function About() {
     <div className='about-container'>
         <div className='about-body-left'>
             <h1>Hallo! I'm a</h1>
-            <h1>frontend developer</h1>
+            <h1><span className='h1-custom'>frontend</span>-developer</h1>
             <h1>in making.</h1>
             <p>I'm Dimitri! A german-based programming enthusiast with the goal to get his first 
                 job as a frontend developer!

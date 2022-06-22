@@ -1,14 +1,20 @@
 html {
     background-color: whitesmoke;
+    --main-yellow-color: rgba(207, 210, 40, 1);
+    --second-yellow-color: rgba(207, 210, 40, 0.5);
+    --main-blue-color: rgba(47, 130, 136, 1);
+    --main-black-color: rgba(52, 50, 50, 1);
+    --second-black-color: rgba(52,  50,  50, 0.5)
 }
 
 .header-container {
-    background-color: bisque;
+    border-bottom: solid 2px black;
     height: 10vh;
 }
 
 .footer-container {
     background-color: bisque;
+    border-top: solid 2px black;
     height: 10vh;
 }
 
@@ -20,18 +26,28 @@ html {
     align-items: center;
 }
 
-.about-body-left, .about-body-right {
-    border:solid blue 2px;
-    width: 50%;
-    height: 80vh;
+.about-body-left h1 {
+    color: var(--main-blue-color)
 }
 
+.about-body-left p {
+    color: var(--second-black-color);
+}
 
+.h1-custom {
+    color: var(--main-yellow-color)
+}
+
+.about-body-left, .about-body-right {
+    width: 50%;
+    height: 80vh; 
+    border: solid brown 1px;    
+}
 
 .profile-image {
     height: 70vh;
     width: 70vh;
-
+    background-color: var(--second-yellow-color);
 }
 
 
