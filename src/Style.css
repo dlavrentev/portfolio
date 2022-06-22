@@ -1,0 +1,13 @@
+html {
+    background-color: whitesmoke;
+}
+
+.header-container {
+    background-color: bisque;
+    height: 10vh;
+}
+
+.footer-container {
+    background-color: bisque;
+    height: 10vh;
+}
