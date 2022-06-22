@@ -27,7 +27,8 @@ html {
 }
 
 .about-body-left h1 {
-    color: var(--main-blue-color)
+    color: var(--main-blue-color);
+    font-size: 3rem;
 }
 
 .about-body-left p {
@@ -44,10 +45,25 @@ html {
     border: solid brown 1px;    
 }
 
+.about-body-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.about-body-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .profile-image {
-    height: 70vh;
-    width: 70vh;
+    height: 100%;
+    width: 100%;
     background-color: var(--second-yellow-color);
+    border-radius: 50% 0 50% 50%;
 }
 
 
