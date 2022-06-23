@@ -13,9 +13,9 @@ export default function Header() {
             <div className='nav-a'>Contact</div>
         </div>
         <div className='circle-container'>
-            <div className='circle'>1</div>
-            <div className='circle'>2</div>
-            <div className='circle'>3</div>
+            <div className='circle'></div>
+            <div className='circle'></div>
+            <div className='circle'></div>
         </div>
     </div>
   )
