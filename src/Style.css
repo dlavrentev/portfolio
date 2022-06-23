@@ -16,82 +16,8 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.header-container {
-    height: 10vh;
-}
 
-.footer-container {
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    font-weight: 100;
-    color: var(--second-black-color)
-}
 
-.about-container {
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.about-body-left h1 {
-    color: var(--first-blue-color);
-    font-size: 5rem;
-    font-weight: 700;
-    line-height: 0px;
-}
-
-.about-body-left h1:last-of-type {
-    margin-bottom: 90px;
-}
-
-.about-body-left p {
-    color: var(--second-black-color);
-    line-height: 0px;
-}
-
-.about-body-left button {
-    border: none;
-    background-color: var(--first-blue-color);
-    color: whitesmoke;
-    font-size: 1.5rem;
-    padding: 20px 80px;
-    border-radius: 32px;
-    font-weight: 700;
-    margin-top: 40px;
-}
-
-.h1-custom {
-    color: var(--second-blue-color)
-}
-
-.about-body-left, .about-body-right {
-    height: 80vh;
-}
-
-.about-body-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 30px;
-    width: 50%;
-}
-
-.about-body-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 48%;
-}
-
-.profile-image {
-   height: 80vh;
-   border-radius: 50% 0 40% 50%;
-   background: var(---fourth-blue-color)
-}
 
 

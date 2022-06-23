@@ -1,0 +1,8 @@
+.footer-container {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 100;
+    color: var(--second-black-color)
+}
