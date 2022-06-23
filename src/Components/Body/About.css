@@ -62,3 +62,11 @@
    border-radius: 50% 0 40% 50%;
    background: var(---fourth-blue-color)
 }
+
+.polka-dots {
+    position: relative;
+    top: -175px;
+    right: -170px;
+    height: 120px;
+    opacity: 70%;
+}
