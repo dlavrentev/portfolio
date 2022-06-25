@@ -10,7 +10,7 @@ export default function Header() {
         <img className='logo-header' alt='logo' src={Logo}></img>
         {/* navigation */}
         <div className='nav-container'>
-            <Link to="https://google.com">About</Link>
+        <p><Link to="https://google.com">About</Link></p>
 
             <div className='nav-a'>Work</div>
             <div className='nav-a'>Services</div>
