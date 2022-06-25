@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Logo from '../../Img/dllogo.png'
-import { LinkHTMLAttributes } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -10,7 +10,7 @@ export default function Header() {
         <img className='logo-header' alt='logo' src={Logo}></img>
         {/* navigation */}
         <div className='nav-container'>
-            <div className='nav-a'><Link to="/about">About</Link></div>
+            <Link to="https://google.com">About</Link>
 
             <div className='nav-a'>Work</div>
             <div className='nav-a'>Services</div>
