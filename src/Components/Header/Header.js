@@ -5,7 +5,9 @@ import Logo from '../../Img/dllogo.png'
 export default function Header() {
 
 
-    const toggleOptions = () => {
+    const btnEl = document.querySelector('.btn');
+
+    function toggleOptions() {
       const wrapperEl = document.querySelector('.wrapper');
       const iconEl = btnEl.querySelector('i');
 
@@ -18,7 +20,7 @@ export default function Header() {
       }
     };
 
-    btnEl.addEventListener('click', toggleOptions);
+    
 
   return (
     <div className='header-container'>
@@ -33,7 +35,7 @@ export default function Header() {
         </div>
         {/* social media buttons  */}
         <div className="wrapper">
-          <button className="btn" ref={btnEl}>
+          <button className="btn">
             <i className="ri-share-line"></i>
           </button>
           <ul class="list">
