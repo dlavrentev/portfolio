@@ -10,9 +10,9 @@ export default function Header() {
         {/* navigation */}
         <div className='nav-container'>
             <div className='nav-a'><a href='https://google.com'>About</a></div>
-            <div className='nav-a'>Work</div>
-            <div className='nav-a'>Services</div>
-            <div className='nav-a'>Contact</div>
+            <div className='nav-a'><a href='https://google.com'>Work</a></div>
+            <div className='nav-a'><a href='https://google.com'>Services</a></div>
+            <div className='nav-a'><a href='https://google.com'>Contact</a></div>
         </div>
         {/* social media buttons  */}
         <div className="wrapper">
