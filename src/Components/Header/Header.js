@@ -3,6 +3,23 @@ import './Header.css'
 import Logo from '../../Img/dllogo.png'
 
 export default function Header() {
+
+
+    const toggleOptions = () => {
+      const wrapperEl = document.querySelector('.wrapper');
+      const iconEl = btnEl.querySelector('i');
+
+      wrapperEl.classList.toggle('active');
+
+      if (iconEl.classList.contains('ri-share-line')) {
+        iconEl.classList.replace('ri-share-line', 'ri-close-line');
+      } else {
+        iconEl.classList.replace('ri-close-line', 'ri-share-line');
+      }
+    };
+
+    btnEl.addEventListener('click', toggleOptions);
+
   return (
     <div className='header-container'>
         {/* logo  */}
@@ -16,7 +33,7 @@ export default function Header() {
         </div>
         {/* social media buttons  */}
         <div className="wrapper">
-          <button className="btn">
+          <button className="btn" ref={btnEl}>
             <i className="ri-share-line"></i>
           </button>
           <ul class="list">

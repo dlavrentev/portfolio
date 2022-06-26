@@ -50,6 +50,7 @@ html {
 
 .wrapper {
     position: relative;
+    left: -100px;
 }
 
 .wrapper :is(.btn, .link) {
