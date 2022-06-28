@@ -1,26 +1,8 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Header.css'
 import Logo from '../../Img/dllogo.png'
 
 export default function Header() {
-
-
-    const btnEl = document.querySelector('.btn');
-
-    function toggleOptions() {
-      const wrapperEl = document.querySelector('.wrapper');
-      const iconEl = btnEl.querySelector('i');
-
-      wrapperEl.classList.toggle('active');
-
-      if (iconEl.classList.contains('ri-share-line')) {
-        iconEl.classList.replace('ri-share-line', 'ri-close-line');
-      } else {
-        iconEl.classList.replace('ri-close-line', 'ri-share-line');
-      }
-    };
-
-    
 
   return (
     <div className='header-container'>
@@ -40,17 +22,17 @@ export default function Header() {
                 </button>
                 <ul className="list">
                     <li className="item">
-                        <a href="" className="link ig">
+                        <a href="https://google.com" className="link ig">
                             <i className="ri-instagram-line"></i>
                         </a>
                     </li>
                     <li className="item" >
-                        <a href="" className="link tw">
+                        <a href="https://google.com" className="link tw">
                             <i className="ri-twitter-line"></i>
                         </a>
                     </li>
                     <li className="item" >
-                        <a href="" className="link sc">
+                        <a href="https://google.com" className="link sc">
                             <i className="ri-snapchat-line"></i>
                         </a>
                     </li>
