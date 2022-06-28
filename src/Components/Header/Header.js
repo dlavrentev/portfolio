@@ -34,28 +34,28 @@ export default function Header() {
             <div className='nav-a'><a href='https://google.com'>Contact</a></div>
         </div>
         {/* social media buttons  */}
-        <div className="wrapper">
-          <button className="btn">
-            <i className="ri-share-line"></i>
-          </button>
-          <ul class="list">
-            <li class="item">
-              <a href="https://google.com" class="link ig">
-                <i class="ri-instagram-line"></i>
-              </a>
-            </li>
-             <li class="item" /* style="--d: .25s;" */> 
-              <a href="https://google.com" class="link tw">
-                <i class="ri-twitter-line"></i>
-              </a>
-            </li>
-            <li class="item" /* style="--d: .5s;" */>
-              <a href="https://google.com" class="link sc">
-                <i class="ri-snapchat-line"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+            <div class="wrapper">
+                <button class="btn">
+                    <i class="ri-share-line"></i>
+                </button>
+                <ul class="list">
+                    <li class="item">
+                        <a href="#" class="link ig">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                    <li class="item" >
+                        <a href="#" class="link tw">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </li>
+                    <li class="item" >
+                        <a href="#" class="link sc">
+                            <i class="ri-snapchat-line"></i>
+                        </a>
+                    </li>
+                 </ul>
+            </div>
     
     </div>
   )
