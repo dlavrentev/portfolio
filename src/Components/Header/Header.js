@@ -17,23 +17,23 @@ export default function Header() {
         </div>
         {/* social media buttons  */}
             <div className="wrapper">
-                <button className="btn">
+                <button className="btn">btn
                     <i className="ri-share-line"></i>
                 </button>
                 <ul className="list">
                     <li className="item">
                         <a href="https://google.com" className="link ig">
-                            <i className="ri-instagram-line"></i>
+                            <i className="ri-instagram-line">1</i>
                         </a>
                     </li>
                     <li className="item" >
                         <a href="https://google.com" className="link tw">
-                            <i className="ri-twitter-line"></i>
+                            <i className="ri-twitter-line">2</i>
                         </a>
                     </li>
                     <li className="item" >
                         <a href="https://google.com" className="link sc">
-                            <i className="ri-snapchat-line"></i>
+                            <i className="ri-snapchat-line">3</i>
                         </a>
                     </li>
                  </ul>
