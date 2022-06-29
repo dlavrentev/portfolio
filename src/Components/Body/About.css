@@ -1,5 +1,3 @@
-
-
 .about-container {
     height: 80vh;
     display: flex;
@@ -10,9 +8,9 @@
 
 .about-body-left h1 {
     color: var(--first-blue-color);
-    font-size: 3rem;    /* here 5rem */
+    font-size: 6rem;    /* here 5rem */
     font-weight: 700;
-    line-height: 0px;
+   
 }
 
 .about-body-left h1:last-of-type {
@@ -21,15 +19,15 @@
 
 .about-body-left p {
     color: var(--second-black-color);
-    line-height: 0px;
+    font-size: 2.5rem;
 }
 
 .about-body-left button {
     border: none;
     background-color: var(--first-blue-color);
     color: whitesmoke;
-    font-size: 1.5rem;  /* here 1.5rem */
-    padding: 20px 80px;
+    font-size: 3rem;  /* here 1.5rem */
+    padding: 40px 100px;
     border-radius: 32px;
     font-weight: 700;
     margin-top: 40px;
@@ -66,3 +64,54 @@
 }
 
 
+@media only screen and (max-width: 1200px) {
+    .about-body-left h1 {
+         font-size: 4rem;
+    }
+
+    .about-body-left h1:last-of-type {
+        margin-bottom: 40px;   /* here 80px */
+    }
+
+    .about-body-left button {
+        border: none;
+        background-color: var(--first-blue-color);
+        color: whitesmoke;
+        font-size: 1.2rem;  /* here 1.5rem */
+        padding: 15px 40px;
+        border-radius: 32px;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+
+    .about-body-left p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .about-body-left h1 {
+         font-size: 3rem;
+    }
+
+    .about-body-left h1:last-of-type {
+        margin-bottom: 40px;   /* here 80px */
+    }
+
+    .about-body-left button {
+        border: none;
+        background-color: var(--first-blue-color);
+        color: whitesmoke;
+        font-size: 1.2rem;  /* here 1.5rem */
+        padding: 15px 40px;
+        border-radius: 32px;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+
+    .about-body-left p {
+        font-size: 0.9rem;
+    }
+}
