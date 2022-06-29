@@ -1,3 +1,5 @@
+
+
 .about-container {
     height: 80vh;
     display: flex;
@@ -8,13 +10,13 @@
 
 .about-body-left h1 {
     color: var(--first-blue-color);
-    font-size: 5rem;
+    font-size: 5rem;    /* here 5rem */
     font-weight: 700;
     line-height: 0px;
 }
 
 .about-body-left h1:last-of-type {
-    margin-bottom: 90px;
+    margin-bottom: 80px;   /* here 80px */
 }
 
 .about-body-left p {
@@ -26,7 +28,7 @@
     border: none;
     background-color: var(--first-blue-color);
     color: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1.2rem;  /* here 1.5rem */
     padding: 20px 80px;
     border-radius: 32px;
     font-weight: 700;
@@ -58,7 +60,7 @@
 }
 
 .profile-image {
-   height: 80vh;
+   height: 80vh;        /* here 80vh */
    border-radius: 50% 0 40% 50%;
    background: var(---fourth-blue-color)
 }
@@ -66,7 +68,9 @@
 .polka-dots {
     position: relative;
     top: -175px;
-    right: -170px;
+    right: -160px;    /* here -160px */
     height: 120px;
     opacity: 70%;
 }
+
+
