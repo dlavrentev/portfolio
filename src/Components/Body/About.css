@@ -10,7 +10,7 @@
 
 .about-body-left h1 {
     color: var(--first-blue-color);
-    font-size: 5rem;    /* here 5rem */
+    font-size: 3rem;    /* here 5rem */
     font-weight: 700;
     line-height: 0px;
 }
@@ -28,7 +28,7 @@
     border: none;
     background-color: var(--first-blue-color);
     color: whitesmoke;
-    font-size: 1.2rem;  /* here 1.5rem */
+    font-size: 1.5rem;  /* here 1.5rem */
     padding: 20px 80px;
     border-radius: 32px;
     font-weight: 700;
@@ -44,33 +44,25 @@
 }
 
 .about-body-left {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     margin-left: 30px;
-    width: 50%;
+    width: 50%
 }
 
 .about-body-right {
+    box-sizing: border-box;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    width: 48%;
+    justify-content: flex-end;
 }
 
 .profile-image {
-   height: 80vh;        /* here 80vh */
-   border-radius: 50% 0 40% 50%;
-   background: var(---fourth-blue-color)
-}
-
-.polka-dots {
-    position: relative;
-    top: -175px;
-    right: -160px;    /* here -160px */
-    height: 120px;
-    opacity: 70%;
+   height: 100%;
+   width: 100%;
 }
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Image from '../../Img/profileimage.PNG'
+import Image from '../../Img/profileimagenew2.png'
 import Polka from '../../Img/polkadot.png'
 
 export default function About() {
@@ -18,7 +18,6 @@ export default function About() {
 
         </div>
         <div className='about-body-right'> 
-                <img src={Polka} alt='polka-dots' className='polka-dots'></img>
                 <img src={Image} alt='profile' className='profile-image'></img>
         </div>
     </div>
