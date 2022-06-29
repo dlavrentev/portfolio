@@ -16,7 +16,20 @@ export default function Header() {
             <div className='nav-a'><a href='https://google.com'>Contact</a></div>
         </div>
         {/* social media buttons  */}
-            <div className="wrapper">
+        <div className='circle-container'>
+            <div className='circle'></div>
+            <div className='circle'></div> 
+            <div className='circle'></div>       
+        </div>
+            
+    
+    </div>
+  )
+}
+
+
+
+{/* <div className="wrapper">
                 <button className="btn">btn
                     <i className="ri-share-line"></i>
                 </button>
@@ -37,8 +50,4 @@ export default function Header() {
                         </a>
                     </li>
                  </ul>
-            </div>
-    
-    </div>
-  )
-}
+            </div> */}
