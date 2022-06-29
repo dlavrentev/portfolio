@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import Image from '../../Img/profileimagenew2.png'
-import Polka from '../../Img/polkadot.png'
 
 export default function About() {
   return (

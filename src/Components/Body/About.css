@@ -1,44 +1,8 @@
 .about-container {
+    box-sizing: border-box;
     height: 80vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.about-body-left h1 {
-    color: var(--first-blue-color);
-    font-size: 6rem;    /* here 5rem */
-    font-weight: 700;
-   
-}
-
-.about-body-left h1:last-of-type {
-    margin-bottom: 80px;   /* here 80px */
-}
-
-.about-body-left p {
-    color: var(--second-black-color);
-    font-size: 2.5rem;
-}
-
-.about-body-left button {
-    border: none;
-    background-color: var(--first-blue-color);
-    color: whitesmoke;
-    font-size: 3rem;  /* here 1.5rem */
-    padding: 40px 100px;
-    border-radius: 32px;
-    font-weight: 700;
-    margin-top: 40px;
-}
-
-.h1-custom {
-    color: var(--second-blue-color)
-}
-
-.about-body-left, .about-body-right {
-    height: 80vh;
 }
 
 .about-body-left {
@@ -48,7 +12,9 @@
     justify-content: center;
     align-items: flex-start;
     margin-left: 30px;
-    width: 50%
+    margin-right: 30px;
+    width: 50vw;
+    height: 70vh;
 }
 
 .about-body-right {
@@ -56,7 +22,39 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    height: 100%;
 }
+
+.about-body-left h1 {
+    color: var(--first-blue-color);
+    font-size: 4rem;    /* here 5rem */
+    font-weight: 700;
+}
+
+
+
+.about-body-left p {
+    color: var(--second-black-color);
+    font-size: 2vw;
+}
+
+.about-body-left button {
+    border: none;
+    background-color: var(--first-blue-color);
+    color: whitesmoke;
+    font-size: 2vw;  /* here 1.5rem */
+    padding: 3% 6%;
+    border-radius: 32px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.h1-custom {
+    color: var(--second-blue-color)
+}
+
+
+
 
 .profile-image {
    height: 100%;
@@ -64,54 +62,4 @@
 }
 
 
-@media only screen and (max-width: 1279px) {
-    .about-body-left h1 {
-         font-size: 4rem;
-    }
 
-    .about-body-left h1:last-of-type {
-        margin-bottom: 40px;   /* here 80px */
-    }
-
-    .about-body-left button {
-        border: none;
-        background-color: var(--first-blue-color);
-        color: whitesmoke;
-        font-size: 1.2rem;  /* here 1.5rem */
-        padding: 15px 40px;
-        border-radius: 32px;
-        font-weight: 700;
-        margin-top: 40px;
-    }
-
-    .about-body-left p {
-        font-size: 0.9rem;
-    }
-}
-
-
-
-@media only screen and (max-width: 768px) {
-    .about-body-left h1 {
-         font-size: 3rem;
-    }
-
-    .about-body-left h1:last-of-type {
-        margin-bottom: 40px;   /* here 80px */
-    }
-
-    .about-body-left button {
-        border: none;
-        background-color: var(--first-blue-color);
-        color: whitesmoke;
-        font-size: 1.2rem;  /* here 1.5rem */
-        padding: 15px 40px;
-        border-radius: 32px;
-        font-weight: 700;
-        margin-top: 40px;
-    }
-
-    .about-body-left p {
-        font-size: 0.9rem;
-    }
-}
