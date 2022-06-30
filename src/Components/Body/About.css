@@ -30,7 +30,7 @@
 
 .about-body-left h1 {
     color: var(--first-blue-color);
-    font-size: 4.5rem;
+    font-size: 5.5vw;
     font-weight: 700;
     width: 95%;
 }
@@ -39,7 +39,7 @@
 
 .about-body-left p {
     color: var(--second-black-color);
-    font-size: 1.5rem;      
+    font-size: 1.5vw;      
     width: 70%;
 }
 
@@ -47,9 +47,9 @@
     border: none;
     background-color: var(--first-blue-color);
     color: whitesmoke;
-    font-size: 2rem;  
+    font-size: 2vw;  
     padding: 3% 6%;
-    border-radius: 32px;
+    border-radius: 2vw;
     font-weight: 700;
 }
 
@@ -63,9 +63,58 @@
 }
 
 
-/* 4k  */
+@media only screen and (max-height: 700px) {
+    .about-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-@media only screen and (max-width: 3841px) and (min-width: 2561px) {
+    .about-body-right {
+        display: none;
+        width: 0%;
+    }
+
+    .about-body-left {
+        position: relative;
+        top: 60px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-body-left h1 {
+        color: var(--first-blue-color);
+        font-size: 5.5vw;
+        font-weight: 700;
+    }
+    
+    
+    
+    .about-body-left p {
+        color: var(--second-black-color);
+        font-size: 1.5vw;      
+        margin: 40px 0;
+    }
+    
+    .about-body-left button {
+        border: none;
+        background-color: var(--first-blue-color);
+        color: whitesmoke;
+        font-size: 16px;  
+        padding: 20px 60px;
+        border-radius: 2vw;
+        font-weight: 700;
+    }
+}
+
+
+
+/* @media only screen and (max-width: 3841px) and (min-width: 2561px) {
     .about-body-left button {
         font-size: 4rem;
     }
@@ -79,7 +128,7 @@
     }
 }
 
-/* 2k  */
+
 
 @media only screen and (max-width: 2560px) and (min-width: 1921px) {
     .about-body-left button {
@@ -95,7 +144,6 @@
     }
 }
 
-/* Full HD */
 
 @media only screen and (max-width: 1920px) and (min-width: 1441px) {
     .about-body-left button {
@@ -109,6 +157,6 @@
     .about-body-left h1 {
         font-size: 6.7rem;
     }
-}
+} */
 
 
