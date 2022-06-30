@@ -8,13 +8,15 @@ export default function Header() {
 
   return (
     <div className='header-container'>
-        {/* logo  */}
-        <img className='logo-header' alt='logo' src={Logo}></img>
+        {/* circle  */}
+        <div className='circle'>
+            
+        </div>
         {/* navigation */}
         <div className='nav-container'>
             <div className='nav-a'><a href='https://google.com'>About</a></div>
-            <div className='nav-a'><a href='https://google.com'>Work</a></div>
-            <div className='nav-a'><a href='https://google.com'>Services</a></div>
+            <div className='nav-a'><a href='https://google.com'>Projects</a></div>
+            <div className='nav-a'><a href='https://google.com'>Myself</a></div>
             <div className='nav-a'><a href='https://google.com'>Contact</a></div>
         </div>
         {/* social media buttons  */}

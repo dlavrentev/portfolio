@@ -39,16 +39,12 @@ a {
     font-size: 30px;
 }
 
-.circle-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .circle {
     height: 50px;
     width: 50px;
-    background: var(--second-blue-color);
+    background: var(--first-blue-color);
     border-radius: 50%;
 }
 
@@ -111,4 +107,6 @@ a {
         transform: rotate(-15deg);
     }
 }
+
+
 
