@@ -30,7 +30,7 @@
 
 .about-body-left h1 {
     color: var(--first-blue-color);
-    font-size: 5.5rem;    /* here 5rem */
+    font-size: 5.5rem;
     font-weight: 700;
     width: 80%;
 }
@@ -47,7 +47,7 @@
     border: none;
     background-color: var(--first-blue-color);
     color: whitesmoke;
-    font-size: 2rem;  /* here 1.5rem */
+    font-size: 2.5rem;  /* here 1.5rem */
     padding: 3% 6%;
     border-radius: 32px;
     font-weight: 700;
@@ -62,7 +62,47 @@
    width: 100%;
 }
 
+@media only screen and (max-width: 3841px) and (min-width: 2561px) {
+    .about-body-left button {
+        font-size: 4.5rem;
+    }
 
-@media screen only and
+    .about-body-left p {
+        font-size: 4rem;      
+    }
+
+    .about-body-left h1 {
+        font-size: 11rem;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1921px) {
+    .about-body-left button {
+        font-size: 3.5rem;
+    }
+
+    .about-body-left p {
+        font-size: 3rem;      
+    }
+
+    .about-body-left h1 {
+        font-size: 7rem;
+    }
+}
+
+
+@media only screen and (max-width: 1920px) and (min-width: 1024px) {
+    .about-body-left button {
+        font-size: 2rem;
+    }
+
+    .about-body-left p {
+        font-size: 1.5rem;      
+    }
+
+    .about-body-left h1 {
+        font-size: 3rem;
+    }
+}
 
 
