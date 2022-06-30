@@ -68,12 +68,12 @@
 
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1280px) {
     .about-container {
         box-sizing: border-box;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        flex-direction: column-reverse;
+        justify-content: center;
         align-items: center;
     }
 
@@ -96,36 +96,44 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .about-body-left h1 {
         color: var(--first-blue-color);
-        font-size: 5.5vw;
+        font-size: 2rem;
         font-weight: 700;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
     }
-    
+
     
     .about-body-left p {
         color: var(--second-black-color);
-        font-size: 1.5vw;      
+        font-size: 0.8rem;      
         margin: 40px 0;
+        width: 100%;
+        text-align: center;
     }
     
     .about-body-left button {
         border: none;
         background-color: var(--first-blue-color);
         color: whitesmoke;
-        font-size: 16px;  
-        padding: 20px 60px;
+        font-size: 1rem;  
+        padding: 10px 30px;
         border-radius: 2vw;
         font-weight: 700;
+        width: 100%;
     }
 
     .hand-image {
         display: block;
-        height: 300px;
+        height: 200px;
     }
+
+    
 }
 
 
