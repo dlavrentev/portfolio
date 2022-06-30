@@ -7,6 +7,11 @@ html {
     --main-black-color: rgba(52, 50, 50, 1);
     --second-black-color: rgba(52,  50,  50, 0.5);
 }
+
+a {
+    text-decoration: none;
+    color: var(--main-black-color);
+}
 .header-container {
     height: 10vh;
     display: flex;
@@ -31,6 +36,7 @@ html {
 
 .nav-a {
     padding: 0 30px;
+    font-size: 30px;
 }
 
 .circle-container {
@@ -44,5 +50,65 @@ html {
     width: 50px;
     background: var(--second-blue-color);
     border-radius: 50%;
+}
+
+/* Social media buttons  */
+
+.icons {
+    display: flex;
+    column-gap: 25px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--main-black-color);
+    border-radius: 50%;
+    outline: 2px solid var(--main-black-color);
+    transition-property:
+        outline-offset, outline-color,
+        background-color;
+    transition-duration: .25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon:hover i {
+    animation: shake .25s;
+}
+
+.icon--linkedin:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+
+.icon--github:hover {
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
 }
 

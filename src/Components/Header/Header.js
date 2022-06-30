@@ -1,6 +1,8 @@
-import React from 'react'
-import './Header.css'
-import Logo from '../../Img/dllogo.png'
+import React from 'react';
+import './Header.css';
+import Logo from '../../Img/dllogo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Header() {
 
@@ -16,10 +18,13 @@ export default function Header() {
             <div className='nav-a'><a href='https://google.com'>Contact</a></div>
         </div>
         {/* social media buttons  */}
-        <div className='circle-container'>
-            <div className='circle'></div>
-            <div className='circle'></div> 
-            <div className='circle'></div>       
+        <div className="icons">
+            <a href="#" className="icon icon--linkedin">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+            <a href="#" className="icon icon--github">
+                <FontAwesomeIcon icon={faGithub} />
+            </a>
         </div>
             
     
