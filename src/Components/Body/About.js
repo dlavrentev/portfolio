@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Image from '../../Img/profileimagenew2.png'
+import Hand from '../../Img/hands_9hand.png'
 
 export default function About() {
   return (
@@ -14,8 +15,9 @@ export default function About() {
             <button>Look at my work!</button>
 
         </div>
-        <div className='about-body-right'> 
+        <div className='about-body-right'>
                 <img src={Image} alt='profile' className='profile-image'></img>
+                <img src={Hand} alt='hand' className='hand-image'></img>
         </div>
     </div>
   )
