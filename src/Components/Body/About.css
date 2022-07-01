@@ -66,6 +66,73 @@
     display: none;
 }
 
+@media only screen and (max-height: 667px) {
+    .about-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-image {
+        display: none;
+    }
+
+    .about-body-right {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: auto;
+       width: auto;
+    }
+
+    .about-body-left {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .about-body-left h1 {
+        color: var(--first-blue-color);
+        font-size: 2rem;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    
+    .about-body-left p {
+        color: var(--second-black-color);
+        font-size: 0.8rem;      
+        margin: 40px 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about-body-left button {
+        border: none;
+        background-color: var(--first-blue-color);
+        color: whitesmoke;
+        font-size: 1rem;  
+        padding: 10px 30px;
+        border-radius: 2vw;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .hand-image {
+        display: none;
+        height: 200px;
+    }
+
+    
+}
 
 
 @media only screen and (max-width: 1280px) {
@@ -105,7 +172,7 @@
         font-weight: 700;
         width: 100%;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     
